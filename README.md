@@ -23,3 +23,7 @@ Use physical reflectance values, applying product-specific scale and offset befo
 ## Limitations
 
 NDVI is a vegetation greenness proxy, not a direct measure of biomass, forage quality or carrying capacity. Field calibration and seasonal comparisons are necessary. Original imagery, property boundaries and classified raster are not included. Code is reconstructed and not yet tested on the original imagery.
+
+## Historical monitoring — V2
+
+The [Colab notebook](notebooks/Pastizales_Rio_Belgrano_V2.ipynb) implements local historical NDVI quartiles and pixel-level anomalies using Google Earth Engine. See the [pilot results and limitations](results/v2-summary.md) for January 2026 versus January 2018–2025. The notebook was run in Colab; the comparable coverage was 49.33%. Run with your own Earth Engine project and classified input raster. Exact property geometry and raster outputs remain excluded from the public repository.
